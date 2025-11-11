@@ -1,0 +1,40 @@
+@model IEnumerable<Notes.Web.ViewModels.NoteListVm>
+@{
+    ViewData["Title"] = "My Notes";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>@ViewData["Title"]</h1>
+        <a class="btn btn-primary" asp-action="Create">+ New Note</a>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="list-group">
+            @foreach (var n in Model)
+            {
+                <a class="list-group-item list-group-item-action" asp-action="Edit" asp-route-id="@n.Id">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">@n.Title
+                            @{
+                                var badgeClass = n.Priority == 2 ? "bg-danger" : (n.Priority == 1 ? "bg-warning text-dark" : "bg-success");
+                                var priorityText = n.Priority == 2 ? "High" : (n.Priority == 1 ? "Medium" : "Low");
+                            }
+                            <span class="badge @badgeClass ms-2">@priorityText</span>
+                        </h5>
+                        <small class="text-muted">Click to edit</small>
+                    </div>
+                    <p class="mb-1 text-muted">@Html.Raw(Html.Encode(n.Excerpt))</p>
+                </a>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">No notes yet!</h4>
+            <p>You haven't created any notes. <a asp-action="Create" class="alert-link">Create your first note</a> to get started.</p>
+        </div>
+    }
+</div>

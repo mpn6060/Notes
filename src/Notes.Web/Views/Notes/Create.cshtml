@@ -1,0 +1,57 @@
+@model Notes.Web.ViewModels.NoteEditVm
+@{
+    ViewData["Title"] = "Create New Note";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h1>@ViewData["Title"]</h1>
+            
+            <form method="post" asp-action="Create">
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label"></label>
+                    <input asp-for="Title" class="form-control" placeholder="Enter note title" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Content" class="form-label"></label>
+                    <textarea asp-for="Content" rows="12" class="form-control" placeholder="Enter your note content here..." id="content"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input asp-for="IsPublic" class="form-check-input" />
+                    <label asp-for="IsPublic" class="form-check-label"></label>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Priority" class="form-label">Priority</label>
+                    <select asp-for="Priority" class="form-select">
+                        <option value="0">Low</option>
+                        <option value="1" selected>Medium</option>
+                        <option value="2">High</option>
+                    </select>
+                </div>
+
+                <div class="btn-group" role="group">
+                    <button type="submit" class="btn btn-primary">Create Note</button>
+                    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        let lastSaved = '';
+        setInterval(() => {
+            const content = document.getElementById('content')?.value || '';
+            if (content === lastSaved) return;
+            lastSaved = content;
+            console.log('autosave (demo)');
+        }, 10000);
+    </script>
+}
