@@ -28,3 +28,4 @@ C:\Users\91918\Documents\GitHub\Notes\src\Notes.Application\obj\Debug\net8.0\Not
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Application\obj\Debug\net8.0\refint\Notes.Application.dll
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Application\obj\Debug\net8.0\Notes.Application.pdb
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Application\obj\Debug\net8.0\ref\Notes.Application.dll
+C:\Users\91918\Documents\GitHub\Notes\src\Notes.Application\obj\Debug\net8.0\Notes.Application.sourcelink.json

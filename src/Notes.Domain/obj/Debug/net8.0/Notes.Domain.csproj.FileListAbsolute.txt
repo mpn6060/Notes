@@ -20,3 +20,4 @@ C:\Users\91918\Documents\GitHub\Notes\src\Notes.Domain\obj\Debug\net8.0\Notes.Do
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Domain\obj\Debug\net8.0\refint\Notes.Domain.dll
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Domain\obj\Debug\net8.0\Notes.Domain.pdb
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Domain\obj\Debug\net8.0\ref\Notes.Domain.dll
+C:\Users\91918\Documents\GitHub\Notes\src\Notes.Domain\obj\Debug\net8.0\Notes.Domain.sourcelink.json

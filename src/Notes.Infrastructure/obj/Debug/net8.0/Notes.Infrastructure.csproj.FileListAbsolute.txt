@@ -36,3 +36,4 @@ C:\Users\91918\Documents\GitHub\Notes\src\Notes.Infrastructure\obj\Debug\net8.0\
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Infrastructure\obj\Debug\net8.0\Notes.Infrastructure.pdb
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Infrastructure\obj\Debug\net8.0\Notes.Infrastructure.genruntimeconfig.cache
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Infrastructure\obj\Debug\net8.0\ref\Notes.Infrastructure.dll
+C:\Users\91918\Documents\GitHub\Notes\src\Notes.Infrastructure\obj\Debug\net8.0\Notes.Infrastructure.sourcelink.json

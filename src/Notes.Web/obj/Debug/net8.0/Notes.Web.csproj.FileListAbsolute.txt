@@ -276,3 +276,4 @@ C:\Users\91918\Documents\GitHub\Notes\src\Notes.Web\obj\Debug\net8.0\refint\Note
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Web\obj\Debug\net8.0\Notes.Web.pdb
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Web\obj\Debug\net8.0\Notes.Web.genruntimeconfig.cache
 C:\Users\91918\Documents\GitHub\Notes\src\Notes.Web\obj\Debug\net8.0\ref\Notes.Web.dll
+C:\Users\91918\Documents\GitHub\Notes\src\Notes.Web\obj\Debug\net8.0\Notes.Web.sourcelink.json
