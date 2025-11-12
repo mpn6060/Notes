@@ -13,7 +13,6 @@ Root solution
 
 A single solution file at the repository root, `Notes.sln`, now contains all projects. Open `Notes.sln` in Visual Studio or VS Code (with the C# extension) to load the whole application at once.
 
-If you previously opened `src/Notes.Web/Notes.Web.sln`, note the nested solution was renamed to `src/Notes.Web/Notes.Web.sln.bak` to avoid confusion — the `.bak` file is a backup and can be restored if desired.
 
 Quick start (developer)
 -----------------------
