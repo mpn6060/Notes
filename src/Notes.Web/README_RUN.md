@@ -15,5 +15,3 @@ Steps:
 4. Run:
    dotnet run
 
-Notes:
-- The project is configured to use ASP.NET Core Identity; to get the Identity UI, the package `Microsoft.AspNetCore.Identity.UI` can be added and Identity pages scaffolded, or run the app and navigate to /Identity/Account/Login to have default endpoints.

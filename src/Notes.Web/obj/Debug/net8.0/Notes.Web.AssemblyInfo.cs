@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notes.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab90145331ae4d4d56efd6023bcceaa901e82379")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ebc59b995248c10c596b0af5c534d32866aade1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notes.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notes.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
